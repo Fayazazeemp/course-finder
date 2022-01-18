@@ -1,0 +1,23 @@
+.graph {
+    margin: 40px auto;
+    background-color: white;
+    width: 60%;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.6);   
+}
+
+.form {
+    margin: auto;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.css-gga68z-MuiInputBase-input {
+    color: rgb(25, 118, 210) !important;
+    font-weight: bold !important;
+}
+
+.renderGraph {
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+}

@@ -1,0 +1,45 @@
+
+
+.Cards__card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pagination {
+    width: fit-content;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+}
+
+.count {
+ font-size: 18px;
+ top: 110px;
+ left: 44.2%;
+ position: absolute;
+}
+
+.loader {
+    border: 16px solid white; 
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .noCourses {
+      font-size: 40px;
+      color: white;
+      margin-top: 30px;
+
+  }

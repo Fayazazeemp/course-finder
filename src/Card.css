@@ -1,0 +1,87 @@
+.Card {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    margin: 18px;
+    position: relative;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.6);
+}
+
+.date {
+    display: flex;
+    color:rgb(25, 118, 210);
+    font-size: 15px;
+}
+
+.Card:hover{
+    border: 4px solid rgb(25, 118, 210);
+}
+
+.courseId {
+    margin: 10px 0px 0 20px;
+    color:rgb(25, 118, 210);
+}
+
+.courseName {
+    color:rgb(241, 47, 112);
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 19px;
+    width: 90%;
+}
+
+.courseLink {
+    text-decoration: none;
+}
+
+.vidUrl {
+    text-decoration: none;
+}
+
+.provider {
+    color: slategrey;
+    margin: 5px 0px 10px 20px;
+}
+
+.uni {
+    color: slategrey;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.childParent {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position:absolute;;
+    bottom:5px;
+    left: 20px;
+}
+
+.childParent > h5 {
+    color:rgb(25, 118, 210);
+}
+
+.idDate {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.nextSesh {
+    margin-left: 5px;
+}
+
+.childParentTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position:absolute;;
+    bottom:25px;
+    left: 20px;
+}
+
+.childParentTitle > h5 {
+    color: gray;
+}
